@@ -1,7 +1,7 @@
 package Basics;
 import java.util.Scanner;
 
-public class palindrime {
+public class Palindrime {
     static boolean isPalindrome(int num){
         int temp=num,newNum=0;
         if(temp==0) return false;
@@ -18,7 +18,7 @@ public class palindrime {
 
         boolean x = isPalindrome(n);
         if (x) {
-            System.out.println("Palindrome");
+            System.out.println(" Yes , Palindrome");
         } else {
             System.out.println("Ahh Oh na na na");
         }
