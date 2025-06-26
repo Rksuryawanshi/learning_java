@@ -28,6 +28,7 @@ public class FrequencyCounter {
         }
 
         countFrequency(arr);
+        sc.close();
 
     }
 }
